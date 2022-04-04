@@ -1,15 +1,51 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
+  const customStyle = ({ isActive }) => {
+    return {
+      fontWeight: isActive ? "bold" : "normal",
+    };
+  };
+
   return (
     <div>
-      <nav className="flex space-x-7 justify-center my-5">
-        <Link to="/home">HOME</Link>
-        <Link to="/reviews">REVIEWS</Link>
-        <Link to="/dashboard">DASHBOARD</Link>
-        <Link to="/blogs">BLOGS</Link>
-        <Link to="/about">ABOUT</Link>
+      <nav className="flex flex-col md:space-x-5 justify-center items-center my-5 md:flex-row">
+        <NavLink
+          className="border-b-4 px-2 text-center w-min"
+          style={customStyle}
+          to="/home"
+        >
+          HOME
+        </NavLink>
+        <NavLink
+          className="border-b-4 px-2 text-center w-min"
+          style={customStyle}
+          to="/reviews"
+        >
+          REVIEWS
+        </NavLink>
+        <NavLink
+          className="border-b-4 px-2 text-center w-min"
+          style={customStyle}
+          to="/dashboard"
+        >
+          DASHBOARD
+        </NavLink>
+        <NavLink
+          className="border-b-4 px-2 text-center w-min"
+          style={customStyle}
+          to="/blogs"
+        >
+          BLOGS
+        </NavLink>
+        <NavLink
+          className="border-b-4 px-2 text-center w-min"
+          style={customStyle}
+          to="/about"
+        >
+          ABOUT
+        </NavLink>
       </nav>
     </div>
   );
