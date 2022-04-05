@@ -6,6 +6,7 @@ import Dashboard from "./Components/Dashboard/Dashboard";
 import Invalid from "./Components/Invalid/Invalid";
 import Reviews from "./Components/Reviews/Reviews";
 import About from "./Components/About/About";
+import Blogs from "./Components/Blogs/Blogs";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/reviews" element={<Reviews />} />
+        <Route path="/blogs" element={<Blogs />} />
         <Route path="/about" element={<About />} />
         <Route path="*" element={<Invalid />} />
       </Routes>
