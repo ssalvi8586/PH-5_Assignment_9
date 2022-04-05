@@ -5,7 +5,7 @@ This is assignment 9 created with react.
 
 ## Live Site
 
-[Netlify Link](https://assignment9ph-5.netlify.app/reviews)
+[Netlify Link](https://assignment9ph-5.netlify.app/)
 
 ## Used Tech
 
