@@ -63,7 +63,7 @@ const Dashboard = () => {
         </LineChart>
       </div>
       <div>
-        <h4 className="text-2xl text-center mb-4">Month wise sell</h4>
+        <h4 className="text-2xl text-center mb-4">Investment vs Revenue</h4>
 
         <PieChart width={400} height={300}>
           <Pie

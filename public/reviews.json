@@ -1,0 +1,44 @@
+[
+    {
+      "id": "1",
+      "username": "Sam",
+      "comment": "Very Good",
+      "ratings": 4.5
+    },
+    {
+      "id": "2",
+      "username": "Sami",
+      "comment": "Good",
+      "ratings": 4
+    },
+    {
+      "id": "3",
+      "username": "Samiur",
+      "comment": "Awesome",
+      "ratings": 5
+    },
+    {
+      "id": "4",
+      "username": "Oli",
+      "comment": "Satisfactory",
+      "ratings": 4
+    },
+    {
+      "id": "5",
+      "username": "Koli",
+      "comment": "Average",
+      "ratings": 4
+    },
+    {
+      "id": "6",
+      "username": "Poli",
+      "comment": "Best",
+      "ratings": 5
+    },
+    {
+      "id": "7",
+      "username": "Jam",
+      "comment": "Top notch",
+      "ratings": 5
+    }
+]
