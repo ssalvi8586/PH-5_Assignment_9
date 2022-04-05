@@ -14,6 +14,7 @@ React router was used for routing.
 This website is responsive.  
 Custom hook and destucturing used.  
 Navlink is used to highlight active link.  
+Rechart and useNavigate used.  
 
 # Getting Started with Create React App
 
