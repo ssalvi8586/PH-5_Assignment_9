@@ -33,12 +33,12 @@ const Home = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 m-10">
           {reviews.slice(0, 3).map((review) => (
             // console.log(review.id);
-            <Review review={review} />
+            <Review key={review.id} review={review} />
           ))}
         </div>
         <button
           onClick={() => navigate("/reviews")}
-          class="rounded-full bg-violet-700 px-5 py-2 text-white w-min md:w-2/6"
+          className="rounded-full bg-violet-700 px-5 py-2 text-white w-min md:w-2/6"
         >
           See All Comments
         </button>

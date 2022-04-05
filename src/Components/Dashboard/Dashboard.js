@@ -84,6 +84,7 @@ const Dashboard = () => {
             fill="#82ca9d"
             label
           />
+          <Tooltip />
         </PieChart>
       </div>
     </div>

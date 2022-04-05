@@ -10,7 +10,7 @@ const Reviews = () => {
     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 m-10">
       {reviews.map((review) => (
         // console.log(review.id);
-        <Review review={review} />
+        <Review key={review.id} review={review} />
       ))}
     </div>
   );
