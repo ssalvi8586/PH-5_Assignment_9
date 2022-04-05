@@ -2,7 +2,6 @@ import React from "react";
 
 const Review = (props) => {
   const { username, comment, ratings } = props.review;
-  //   console.log(props.review.username);
 
   return (
     <div className="shadow-lg p-3 rounded-lg">
