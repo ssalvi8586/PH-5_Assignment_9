@@ -1,3 +1,20 @@
+
+# Book a MAC
+
+This is assignment 9 created with react.
+
+## Live Site
+
+[Netlify Link](https://assignment9ph-5.netlify.app/reviews)
+
+## Used Tech
+
+React, Tailwind CSS.  
+React router was used for routing.  
+This website is responsive.  
+Custom hook and destucturing used.  
+Navlink is used to highlight active link.  
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
